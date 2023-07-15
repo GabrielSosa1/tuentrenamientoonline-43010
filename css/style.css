@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*****RESET*****/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*****HEADER-BOOTSTRAP*****/
+
+header nav img {
+    width: 200px;
+    height: 100%;
+}
+
+/***** MAIN *****/
+main {
+    background-color: white;
+}
+
+.hero {
+    width: 100%;
+    height: 90vh;
+    background-image: url(../img/fondo-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(241, 245, 18);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    display: inline-block;
+    font-size: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+    border-block-end: 2px red solid;
+    padding: 10px;
+}
+
+.hero p {
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    border-block-end: 2px red solid;
+}
+
+.grid-galeria {
+    margin-top: 5px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 200px;
+    gap: 5px;
+}
+
+.grid-galeria div img {
+    width: 100%;
+    height: 100%;
+}
+
+.boton {
+    font-size: 15px;
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(226, 121, 51);
+    padding: 5px;
+}
+
+.musculos h2 {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 3px 27px 32px 6px rgba(0, 50, 240, 0.78);
+    -webkit-box-shadow: 3px 27px 32px 6px rgba(0, 50, 240, 0.78);
+    -moz-box-shadow: 3px 27px 32px 6px rgba(0, 50, 240, 0.78);
+}
+
+.musculos .musc-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.musculos .musc-flex div {
+    width: 200px;
+    height: 225px;
+    border: 5px solid black;
+    text-align: center;
+    background-color: rgb(226, 121, 51);
+    margin: 70px;
+    border-radius: 25%;
+    display: inline-block;
+    box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
+    -webkit-box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
+    -moz-box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
+}
+
+.musculos div img {
+    width: 150x;
+    height: 150px;
+}
+
+/***** FOOTER *****/
+footer {
+    background-color: #212529;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    flex-direction: column;
+}
+
+footer img {
+    width: 150px;
+    height: 100px;
+}
+
+footer div a img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+/*****PAGINA-ELONGACIONES*****/
+/*****MAIN*****/
+.fondo-imagen {
+    width: 100%;
+    background-image: url(../img/fondo-elongar.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.elongar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elongar div {
+    width: 60%;
+}
+
+.elongar div h2 {
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(226, 121, 51);
+    padding: 25px 0 0 0;
+}
+
+.elongar div p {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+}
+
+.elongar div h3 {
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(226, 121, 51);
+}
+
+.elongar div ul li {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 50, 240, 0.78);
+    margin: 0 0 0 35px;
+}
+
+.elongar div ul li p {
+    color: black;
+}
+
+.elongar img {
+    width: 350px;
+    height: 450px;
+    box-shadow: 2px 12px 26px 16px #212529;
+    -webkit-box-shadow: 2px 12px 26px 16px #212529;
+    -moz-box-shadow: 2px 12px 26px 16px #212529;
+}
+
+.beneficios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficios div {
+    width: 60%;
+}
+
+.beneficios div h2 {
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(226, 121, 51);
+}
+
+.beneficios div ul li {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 50, 240, 0.78);
+    margin: 0 0 0 35px;
+}
+
+.beneficios div h3 {
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(226, 121, 51)
+}
+
+.beneficios div p {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+}
+
+.beneficios img {
+    width: 350px;
+    height: 400px;
+    box-shadow: 2px 12px 26px 16px #212529;
+    -webkit-box-shadow: 2px 12px 26px 16px #212529;
+    -moz-box-shadow: 2px 12px 26px 16px #212529;
+}
+
+/*****PAGINA-CONTACTO-BOOTSTRAP*****/
+.main-contacto {
+    background-color: cadetblue;
+}
+
+.main-contacto .card {
+    background-color: rgb(226, 121, 51) !important;
+}
+
+/*****MEDIA-QUERIES-INDEX*****/
+
+@media screen and (max-width:900px) {
+    .hero h2 {
+        font-size: 60px;
+    }
+
+    .hero p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:615px) {
+    .hero h2 {
+        font-size: 60px;
+    }
+
+    .hero p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .hero h2 {
+        font-size: 50px;
+    }
+
+    .hero p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:445px) {
+    .hero h2 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .grid-galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 170px;
+    }
+
+    .grid-foto {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .img-4 {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .grid-galeria {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-foto {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+@media screen and (max-width:640px) {
+    footer img {
+        width: 125px;
+    }
+}
+
+/*****MEDIA-QUERIES-ELONGACIONES*****/
+@media screen and (max-width:870px) {
+    .elongar {
+        flex-direction: column;
+    }
+
+    .elongar img {
+        width: 200px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .elongar div h2 {
+        font-size: 30px;
+    }
+
+    .elongar div p {
+        font-size: 18px;
+    }
+
+    .elongar div h3 {
+        font-size: 22px;
+    }
+
+    .elongar img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .elongar img {
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width:870px) {
+    .beneficios {
+        flex-direction: column;
+    }
+
+    .beneficios img {
+        width: 250px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .beneficios div h2 {
+        font-size: 30px;
+    }
+
+    .beneficios div h3 {
+        font-size: 22px;
+    }
+
+    .beneficios div p {
+        font-size: 18px;
+    }
+
+    .beneficios img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .beneficios img {
+        width: 200px;
+        height: 230px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .beneficios img {
+        width: 35vw;
+    }
+}
