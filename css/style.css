@@ -82,9 +82,9 @@ main {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     padding: 20px;
-    box-shadow: 3px 27px 32px 6px rgba(0, 50, 240, 0.78);
-    -webkit-box-shadow: 3px 27px 32px 6px rgba(0, 50, 240, 0.78);
     -moz-box-shadow: 3px 27px 32px 6px rgba(0, 50, 240, 0.78);
+    -webkit-box-shadow: 3px 27px 32px 6px rgba(0, 50, 240, 0.78);
+    box-shadow: 3px 27px 32px 6px rgba(0, 50, 240, 0.78);
 }
 
 .musculos .musc-flex {
@@ -103,9 +103,9 @@ main {
     margin: 70px;
     border-radius: 25%;
     display: inline-block;
-    box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
-    -webkit-box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
     -moz-box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
+    -webkit-box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
+    box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
 }
 
 .musculos div img {
@@ -190,9 +190,9 @@ footer div a img {
 .elongar img {
     width: 350px;
     height: 450px;
-    box-shadow: 2px 12px 26px 16px #212529;
-    -webkit-box-shadow: 2px 12px 26px 16px #212529;
     -moz-box-shadow: 2px 12px 26px 16px #212529;
+    -webkit-box-shadow: 2px 12px 26px 16px #212529;
+    box-shadow: 2px 12px 26px 16px #212529;
 }
 
 .beneficios {
@@ -236,9 +236,9 @@ footer div a img {
 .beneficios img {
     width: 350px;
     height: 400px;
-    box-shadow: 2px 12px 26px 16px #212529;
-    -webkit-box-shadow: 2px 12px 26px 16px #212529;
     -moz-box-shadow: 2px 12px 26px 16px #212529;
+    -webkit-box-shadow: 2px 12px 26px 16px #212529;
+    box-shadow: 2px 12px 26px 16px #212529;
 }
 
 /*****PAGINA-CONTACTO-BOOTSTRAP*****/
