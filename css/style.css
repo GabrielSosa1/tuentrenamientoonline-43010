@@ -236,7 +236,7 @@ footer div a img {
 .beneficios img {
     width: 350px;
     height: 400px;
-    -moz-box-shadow: 2px 12px 26px 16px #212529;
+    box-shadow: 2px 12px 26px 16px #212529;
     -webkit-box-shadow: 2px 12px 26px 16px #212529;
     box-shadow: 2px 12px 26px 16px #212529;
 }
