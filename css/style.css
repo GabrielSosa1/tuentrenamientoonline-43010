@@ -133,6 +133,43 @@ footer div a img {
     height: 30px;
     margin: 5px;
 }
+/*****PAGINAS-RUTINAS*****/
+/*****MAIN*****/
+.fondo{
+    background-color: rgb(226, 121, 51);
+}
+.distribucion h3{
+    text-align: center;
+}
+.distribucion .tabla{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+.distribucion table{
+    background-color: white;
+    text-align: left;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+tr:nth-child(even){
+    background-color:rgba(172, 160, 160, 0.452);
+}
+tr th{
+    border-bottom: 5px solid black;
+    background-color: #212529;
+    color: white;
+    padding: 5px;
+}
+tr td{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+
 
 /*****PAGINA-ELONGACIONES*****/
 /*****MAIN*****/
