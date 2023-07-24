@@ -156,7 +156,7 @@ footer div a img {
 .distribucion h3{
     text-align: center;
 }
-.distribucion .tabla{
+.distribucion .tabla-dias{
     display: flex;
     justify-content:center;
     width: 100%;
@@ -183,14 +183,14 @@ tr td{
     border: 1px solid black;
     padding: 2px;
 }
-.tabla-1{
+.tabla{
     display: flex;
     justify-content:center;
     width: 100%;
     height: 100%;
     padding: 25px;
 }
-.tabla-1 .dia-1{
+.tabla .entreno{
     text-align: center;
 }
 
@@ -393,6 +393,30 @@ tr td{
 @media screen and (max-width:640px) {
     footer img {
         width: 125px;
+    }
+}
+/*****MEDIA-QUERIES-RUTINAS*****/
+@media screen and (max-width:905px) {
+    .introduccion div h2{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:819px) {
+    .introduccion div h2{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:370px){
+    .introduccion div h2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:768px) {
+    .distribucion .tabla-dias{
+        font-size: 12px;
+    }
+    .distribucion .tabla{
+        font-size: 12px;
     }
 }
 

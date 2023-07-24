@@ -4,7 +4,7 @@
 
 - Actualmente estoy trabajando en [TuEntrenamientoOnline](https://github.com/GabrielSosa1/tuentrenamientoonline-43010.git)
 
-- Actualmente estoy aprendiendo **Desarrollo web**- Pregúntame sobre **Entrenamientos**- 🌱 📫 🔭 💬 Cómo llegar **gaby_s.g@outlookes**
+- Actualmente estoy aprendiendo **Desarrollo web**- Pregúntame sobre **Entrenamientos**- 🌱 📫 🔭 💬 Cómo llegar **gaby_s.g@outlook.es**
 
 
 
