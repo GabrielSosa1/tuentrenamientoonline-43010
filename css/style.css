@@ -65,7 +65,7 @@ main {
     height: 100%;
 }
 
-.boton{
+.boton {
     font-size: 15px;
     text-decoration: none;
     font-style: italic;
@@ -73,7 +73,7 @@ main {
     color: white;
     background-color: rgb(226, 121, 51);
     overflow: hidden;
-    cursor:pointer;
+    cursor: pointer;
     transition: all 400ms ease;
     padding: 5px;
 }
@@ -140,63 +140,159 @@ footer div a img {
     height: 30px;
     margin: 5px;
 }
+
 /*****PAGINAS-RUTINAS*****/
 /*****MAIN*****/
-.introduccion div h2{
+.introduccion div h2 {
     font-size: 50px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
     color: rgb(226, 121, 51);
     padding: 15px;
 }
-.introduccion div p{
-    font-family:'Poppins', sans-serif;
+
+.introduccion div p {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
     padding: 0 0 0 15px;
 }
-.distribucion h3{
+
+.distribucion h3 {
+    color:  rgb(226, 121, 51);
     text-align: center;
 }
-.distribucion .tabla-dias{
+
+.distribucion .tabla-dias {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     width: 100%;
     height: 100%;
     padding: 25px;
 }
-.distribucion table{
+
+.distribucion table {
     background-color: white;
     text-align: left;
     width: 50%;
     height: 100%;
     border: 1px solid black;
 }
-tr:nth-child(even){
-    background-color:rgba(172, 160, 160, 0.452);
+
+tr:nth-child(even) {
+    background-color: rgba(172, 160, 160, 0.452);
 }
-tr th{
+
+tr th {
     border-bottom: 5px solid black;
     background-color: #212529;
     color: white;
     padding: 5px;
 }
-tr td{
+
+tr td {
     border: 1px solid black;
     padding: 2px;
 }
-.tabla{
+
+.tabla {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     width: 100%;
     height: 100%;
     padding: 25px;
 }
-.tabla .entreno{
+
+.tabla .entreno {
     text-align: center;
+}
+/*****PAGINA-FUNCIONAL*****/
+.funcional-1 h2{
+    color:rgb(226, 121, 51);
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+}
+.funcional-1 p{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    padding:0 0 0 15px;
+}
+.funcional-1 h3{
+    color: rgb(226, 121, 51);
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 0 0 15px;
+}
+.mejora ul li{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 50, 240, 0.78);
+    margin: 0 0 0 35px;
+}
+.mejora ul li p{
+    color: black;
+}
+.funcional-2 .tipos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(226, 121, 51);
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+}
+.tipos img{
+    width:800px;
+}
+.funcional-2 .entrenamientos h3{
+    color:rgb(226, 121, 51);
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 0 0 15px;
+}
+.entrenamientos ul li{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 50, 240, 0.78);
+    margin: 0 0 0 35px;
+}
+.entrenamientos ul li p{
+    color: black;
+}
+.ejemplos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(226, 121, 51);
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+}
+.ejemplos img{
+    width: 750px;
+}
+.ejemplo-tabla{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+.ejemplo-tabla table{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
 }
 
 /*****PAGINA-ELONGACIONES*****/
 /*****MAIN*****/
-.fondo-imagen{
+.fondo-imagen {
     width: 100%;
     background-image: url(../img/fondo-elongar.png);
     background-position: center;
@@ -215,7 +311,7 @@ tr td{
 }
 
 .elongar div h2 {
-    font-size: 35px;
+    font-size: 50px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
     color: rgb(226, 121, 51);
@@ -266,7 +362,7 @@ tr td{
 }
 
 .beneficios div h2 {
-    font-size: 35px;
+    font-size: 50px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
     color: rgb(226, 121, 51);
@@ -395,27 +491,32 @@ tr td{
         width: 125px;
     }
 }
+
 /*****MEDIA-QUERIES-RUTINAS*****/
 @media screen and (max-width:905px) {
-    .introduccion div h2{
+    .introduccion div h2 {
         font-size: 45px;
     }
 }
+
 @media screen and (max-width:819px) {
-    .introduccion div h2{
+    .introduccion div h2 {
         font-size: 35px;
     }
 }
-@media screen and (max-width:370px){
-    .introduccion div h2{
+
+@media screen and (max-width:370px) {
+    .introduccion div h2 {
         font-size: 30px;
     }
 }
+
 @media screen and (max-width:768px) {
-    .distribucion .tabla-dias{
+    .distribucion .tabla-dias {
         font-size: 12px;
     }
-    .distribucion .tabla{
+
+    .distribucion .tabla {
         font-size: 12px;
     }
 }
