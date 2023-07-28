@@ -60,22 +60,9 @@ main {
     gap: 5px;
 }
 
-.grid-galeria div img {
+.grid-galeria .grid-foto img {
     width: 100%;
     height: 100%;
-}
-
-.boton {
-    font-size: 15px;
-    text-decoration: none;
-    font-style: italic;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    background-color: rgb(226, 121, 51);
-    overflow: hidden;
-    cursor: pointer;
-    transition: all 400ms ease;
-    padding: 5px;
 }
 
 .musculos h2 {
@@ -90,7 +77,6 @@ main {
     box-shadow: 3px 27px 32px 6px rgba(0, 50, 240, 0.78);
 }
 
-
 .musculos .musc-flex {
     display: flex;
     justify-content: space-around;
@@ -98,7 +84,6 @@ main {
     flex-wrap: wrap;
     overflow: hidden;
     cursor: default;
-    transition: all 400ms ease;
 }
 
 .musculos .musc-flex div {
@@ -113,12 +98,27 @@ main {
     -moz-box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
     -webkit-box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
     box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
+    transition: 2s;
 }
-
-.musculos div img {
+.musculos .musc-flex div:hover{
+    transform: scale(1.3);
+}
+.musculos .musc-flex div img {
     width: 150x;
     height: 150px;
 }
+.musculos .musc-flex div .boton {
+    font-size: 15px;
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(226, 121, 51);
+    cursor: pointer;
+    transition: all 400ms ease;
+    padding: 5px;
+}
+
 
 /***** FOOTER *****/
 footer {
@@ -163,7 +163,7 @@ footer div a img {
     text-align: center;
 }
 
-.distribucion .tabla-dias {
+.distribucion .tabla {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -171,7 +171,7 @@ footer div a img {
     padding: 25px;
 }
 
-.distribucion table {
+.distribucion .tabla table {
     background-color: white;
     text-align: left;
     width: 50%;
@@ -179,32 +179,24 @@ footer div a img {
     border: 1px solid black;
 }
 
-tr:nth-child(even) {
-    background-color: rgba(172, 160, 160, 0.452);
-}
-
-tr th {
+.distribucion .tabla table tbody tr th {
     border-bottom: 5px solid black;
     background-color: #212529;
     color: white;
     padding: 5px;
 }
 
-tr td {
+.distribucion .tabla table tbody tr td {
     border: 1px solid black;
     padding: 2px;
 }
 
-.tabla {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    padding: 25px;
+.distribucion .tabla .entreno {
+    text-align: center;
 }
 
-.tabla .entreno {
-    text-align: center;
+tr:nth-child(even) {
+    background-color: rgba(172, 160, 160, 0.452);
 }
 
 /*****PAGINA-FUNCIONAL*****/
@@ -230,7 +222,7 @@ tr td {
     padding: 0 0 0 15px;
 }
 
-.mejora ul li {
+.funcional-1 .mejora ul li {
     font-size: 20px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
@@ -238,7 +230,7 @@ tr td {
     margin: 0 0 0 35px;
 }
 
-.mejora ul li p {
+.funcional-1 .mejora ul li p {
     color: black;
 }
 
@@ -252,7 +244,7 @@ tr td {
     font-family: 'Poppins', sans-serif;
 }
 
-.tipos img {
+.funcional-2 .tipos img {
     width: 800px;
 }
 
@@ -263,7 +255,7 @@ tr td {
     padding: 0 0 0 15px;
 }
 
-.entrenamientos ul li {
+.funcional-2 .entrenamientos ul li {
     font-size: 20px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
@@ -271,7 +263,7 @@ tr td {
     margin: 0 0 0 35px;
 }
 
-.entrenamientos ul li p {
+.funcional-2 .entrenamientos ul li p {
     color: black;
 }
 
@@ -285,11 +277,11 @@ tr td {
     font-family: 'Poppins', sans-serif;
 }
 
-.ejemplos img {
+.funcional-2 .ejemplos img {
     width: 750px;
 }
 
-.ejemplo-tabla {
+.funcional-2 .ejemplo-tabla {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -297,11 +289,21 @@ tr td {
     padding: 25px;
 }
 
-.ejemplo-tabla table {
+.funcional-2 .ejemplo-tabla table {
     text-align: center;
     width: 50%;
     height: 100%;
     border: 1px solid black;
+}
+.funcional-2 .ejemplo-tabla table tbody tr th{
+    border-bottom: 5px solid black;
+    background-color: #212529;
+    color: white;
+    padding: 5px;
+}
+.funcional-2 .ejemplo-tabla table tbody tr td{
+    border: 1px solid black;
+    padding: 2px;
 }
 
 /*****PAGINA-ELONGACIONES*****/
@@ -416,7 +418,7 @@ tr td {
     background-color: cadetblue;
 }
 
-.main-contacto .card {
+.main-contacto .container {
     background-color: rgb(226, 121, 51) !important;
 }
 
@@ -534,13 +536,10 @@ tr td {
 }
 
 @media screen and (max-width:768px) {
-    .distribucion .tabla-dias {
-        font-size: 12px;
-    }
-
     .distribucion .tabla {
         font-size: 12px;
     }
+
 }
 /*****MEDIA-QUERIES-FUNCIONAL*****/
 @media screen and (max-width:768px){
