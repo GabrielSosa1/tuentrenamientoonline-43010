@@ -1,0 +1,102 @@
+/*****PAGINA-ELONGACIONES*****/
+/*****MAIN*****/
+.fondo-imagen{
+    width: 100%;
+    background-image: url(../img/fondo-elongar.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.elongar{
+    h2{
+        font-size: 50px;
+        font-style: italic;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(226, 121, 51);
+        padding:15px;
+    }
+    p{
+        font-size: 20px;
+        font-style: italic;
+        font-family: 'Poppins', sans-serif;
+        padding: 0 0 0 15px;
+    }
+    h3{
+        font-size: 30px;
+        font-style: italic;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(226, 121, 51);
+        padding:0 0 0 15px;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        ul{
+            li{
+                font-size: 20px;
+                font-style: italic;
+                font-family: 'Poppins', sans-serif;
+                color: rgba(0, 50, 240, 0.78);
+                margin: 0 0 0 35px;
+                padding:0 20px 0 0;
+                p{
+                    color: black;
+                }
+            }
+        }
+        img{
+            width: 500px;
+            height: 450px;
+            -moz-box-shadow: 2px 12px 26px 16px #212529;
+            -webkit-box-shadow: 2px 12px 26px 16px #212529;
+            box-shadow: 2px 12px 26px 16px #212529;
+        }
+    }
+}
+.beneficios{   
+    h2{
+        font-size: 50px;
+        font-style: italic;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(226, 121, 51);
+        padding: 15px;
+    }
+    h3{
+        font-size: 25px;
+        font-style: italic;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(226, 121, 51);
+        padding: 0 0 0 15px;
+    }
+    p{
+        font-size: 20px;
+        font-style: italic;
+        font-family: 'Poppins', sans-serif;
+        padding: 0 0 0 15px;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        ul{
+            li{
+                font-size: 20px;
+                font-style: italic;
+                font-family: 'Poppins', sans-serif;
+                color: rgba(0, 50, 240, 0.78);
+                margin: 0 0 0 35px;
+                padding: 0 20px 0 0;
+            }
+        }
+        img{
+            width: 450px;
+            height: 350px;
+            -moz-box-shadow: 2px 12px 26px 16px #212529;
+            -webkit-box-shadow: 2px 12px 26px 16px #212529;
+            box-shadow: 2px 12px 26px 16px #212529;
+        }
+    }
+}

@@ -16,10 +16,6 @@ header nav div a img {
 }
 
 /***** MAIN *****/
-main {
-    background-color: white;
-}
-
 .hero {
     width: 100%;
     height: 90vh;
@@ -121,10 +117,11 @@ main {
     transition: all 400ms ease;
     padding: 5px;
 }
-.musculos .musc-flex div .boton:hover{
+
+.musculos .musc-flex div .boton:hover {
     color: rgba(0, 50, 240, 0.78);
     transition: 1s;
-} 
+}
 
 
 /***** FOOTER *****/
@@ -148,7 +145,7 @@ footer div a img {
     margin: 5px;
 }
 
-/*****PAGINAS-RUTINAS*****/
+/*****PAGINA-RUTINAS*****/
 /*****MAIN*****/
 .introduccion div h2 {
     font-size: 50px;
@@ -186,6 +183,10 @@ footer div a img {
     border: 1px solid black;
 }
 
+.distribucion .tabla table tbody tr:nth-child(even) {
+    background-color: rgba(172, 160, 160, 0.452);
+}
+
 .distribucion .tabla table tbody tr th {
     border-bottom: 5px solid black;
     background-color: #212529;
@@ -202,9 +203,6 @@ footer div a img {
     text-align: center;
 }
 
-tr:nth-child(even) {
-    background-color: rgba(172, 160, 160, 0.452);
-}
 
 /*****PAGINA-FUNCIONAL*****/
 .funcional-1 h2 {
@@ -274,7 +272,7 @@ tr:nth-child(even) {
     color: black;
 }
 
-.ejemplos {
+.funcional-2 .ejemplos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -297,10 +295,15 @@ tr:nth-child(even) {
 }
 
 .funcional-2 .ejemplo-tabla table {
+    background-color: white;
     text-align: center;
     width: 50%;
     height: 100%;
     border: 1px solid black;
+}
+
+.funcional-2 .ejemplo-tabla table tbody tr:nth-child(even) {
+    background-color: rgba(172, 160, 160, 0.452);
 }
 
 .funcional-2 .ejemplo-tabla table tbody tr th {
@@ -325,35 +328,34 @@ tr:nth-child(even) {
     background-repeat: no-repeat;
 }
 
-.elongar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.elongar div {
-    width: 60%;
-}
-
-.elongar div h2 {
+.elongar h2 {
     font-size: 50px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
     color: rgb(226, 121, 51);
-    padding: 25px 0 0 0;
+    padding:15px;
 }
 
-.elongar div p {
+.elongar p {
     font-size: 20px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
+    padding: 0 0 0 15px;
 }
 
-.elongar div h3 {
+.elongar h3 {
     font-size: 30px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
     color: rgb(226, 121, 51);
+    padding:0 0 0 15px;
+}
+
+.elongar div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
 }
 
 .elongar div ul li {
@@ -362,35 +364,49 @@ tr:nth-child(even) {
     font-family: 'Poppins', sans-serif;
     color: rgba(0, 50, 240, 0.78);
     margin: 0 0 0 35px;
+    padding:0 20px 0 0;
 }
 
 .elongar div ul li p {
     color: black;
 }
 
-.elongar img {
-    width: 350px;
+.elongar div img {
+    width: 500px;
     height: 450px;
     -moz-box-shadow: 2px 12px 26px 16px #212529;
     -webkit-box-shadow: 2px 12px 26px 16px #212529;
     box-shadow: 2px 12px 26px 16px #212529;
 }
 
-.beneficios {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.beneficios div {
-    width: 60%;
-}
-
-.beneficios div h2 {
+.beneficios h2 {
     font-size: 50px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
     color: rgb(226, 121, 51);
+    padding: 15px;
+}
+
+.beneficios h3 {
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(226, 121, 51);
+    padding: 0 0 0 15px;
+}
+
+.beneficios p {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 0 0 15px;
+}
+
+.beneficios div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
 }
 
 .beneficios div ul li {
@@ -399,25 +415,13 @@ tr:nth-child(even) {
     font-family: 'Poppins', sans-serif;
     color: rgba(0, 50, 240, 0.78);
     margin: 0 0 0 35px;
+    padding: 0 20px 0 0;
 }
 
-.beneficios div h3 {
-    font-size: 25px;
-    font-style: italic;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(226, 121, 51)
-}
-
-.beneficios div p {
-    font-size: 20px;
-    font-style: italic;
-    font-family: 'Poppins', sans-serif;
-}
-
-.beneficios img {
-    width: 350px;
-    height: 400px;
-    box-shadow: 2px 12px 26px 16px #212529;
+.beneficios div img{
+    width: 450px;
+    height: 350px;
+    -moz-box-shadow: 2px 12px 26px 16px #212529;
     -webkit-box-shadow: 2px 12px 26px 16px #212529;
     box-shadow: 2px 12px 26px 16px #212529;
 }
@@ -427,7 +431,7 @@ tr:nth-child(even) {
     background-color: cadetblue;
 }
 
-.main-contacto .container {
+.container {
     background-color: rgb(226, 121, 51) !important;
 }
 
@@ -612,78 +616,78 @@ tr:nth-child(even) {
 
 /*****MEDIA-QUERIES-ELONGACIONES*****/
 @media screen and (max-width:870px) {
-    .elongar {
-        flex-direction: column;
-    }
-
-    .elongar img {
-        width: 200px;
-        height: 250px;
-    }
-}
-
-@media screen and (max-width:500px) {
-    .elongar div h2 {
-        font-size: 30px;
-    }
-
-    .elongar div p {
-        font-size: 18px;
-    }
-
-    .elongar div h3 {
-        font-size: 22px;
-    }
-
-    .elongar img {
+    .elongar div img {
         display: none;
     }
 }
 
-@media screen and (max-width:950px) {
-    .elongar img {
-        width: 35vw;
+@media screen and (max-width:576px) {
+    .elongar h2 {
+        font-size: 35px;
+    }
+
+    .elongar p {
+        font-size: 18px;
+    }
+
+    .elongar h3 {
+        font-size: 20px;
+    }
+
+    .elongar div ul li strong{
+        font-size: 18px;
+    }
+
+    .elongar div ul li p{
+        font-size:15px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .elongar h2{
+        font-size: 30px;
+    }
+    .elongar p{
+        font-size:18px;
     }
 }
 
 @media screen and (max-width:870px) {
     .beneficios {
-        flex-direction: column;
+        flex-direction:column;
     }
-
-    .beneficios img {
-        width: 250px;
-        height: 300px;
-    }
-}
-
-@media screen and (max-width:500px) {
-    .beneficios div h2 {
-        font-size: 30px;
-    }
-
-    .beneficios div h3 {
-        font-size: 22px;
-    }
-
-    .beneficios div p {
-        font-size: 18px;
-    }
-
-    .beneficios img {
+    .beneficios div img {
         display: none;
     }
 }
 
-@media screen and (max-width:550px) {
-    .beneficios img {
-        width: 200px;
-        height: 230px;
+@media screen and (max-width:576px) {
+    .beneficios h2 {
+        font-size: 35px;
+    }
+
+    .beneficios div ul li strong{
+        font-size: 18px;
+    }
+
+    .beneficios h3 {
+        font-size: 20px;
+    }
+
+    .beneficios p {
+        font-size: 15px;
     }
 }
 
-@media screen and (max-width:950px) {
-    .beneficios img {
-        width: 35vw;
+@media screen and (max-width:400px) {
+    .beneficios h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .beneficios div img {
+        width: 350px;
+        height: 250px;
     }
 }

@@ -1,0 +1,114 @@
+/*****PAGINA-FUNCIONAL*****/
+.funcional-1{
+    h2{
+        color: rgb(226, 121, 51);
+        font-size: 50px;
+        font-style: italic;
+        font-family: 'Poppins', sans-serif;
+        padding: 15px;
+    }
+    p{
+        font-size: 20px;
+        font-style: italic;
+        font-family: 'Poppins', sans-serif;
+        padding: 0 0 0 15px;
+    }
+    h3{
+        color: rgb(226, 121, 51);
+        font-style: italic;
+        font-family: 'Poppins', sans-serif;
+        padding: 0 0 0 15px;
+    }
+    .mejora{
+        ul{
+            li{
+                font-size: 20px;
+                font-style: italic;
+                font-family: 'Poppins', sans-serif;
+                color: rgba(0, 50, 240, 0.78);
+                margin: 0 0 0 35px;
+                p{
+                    color: black;
+                }
+            }
+        }
+    }
+}
+.funcional-2{
+    .tipos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(226, 121, 51);
+        font-size: 50px;
+        font-style: italic;
+        font-family: 'Poppins', sans-serif;
+        img{
+            width: 800px;
+        }
+    }
+    .entrenamientos{
+        h3{
+            color: rgb(226, 121, 51);
+            font-style: italic;
+            font-family: 'Poppins', sans-serif;
+            padding: 0 0 0 15px;
+        }
+        ul{
+            li{
+                font-size: 20px;
+                font-style: italic;
+                font-family: 'Poppins', sans-serif;
+                color: rgba(0, 50, 240, 0.78);
+                margin: 0 0 0 35px;
+                p{
+                    color: black;
+                }
+            }
+        }
+    }
+    .ejemplos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(226, 121, 51);
+        font-size: 50px;
+        font-style: italic;
+        font-family: 'Poppins', sans-serif;
+        img{
+            width: 750px;
+        }
+    }
+    .ejemplo-tabla{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 25px;
+        table{
+            text-align: center;
+            width: 50%;
+            height: 100%;
+            border: 1px solid black;
+            tbody{
+                tr{
+                    &:nth-child(even){
+                        background-color: rgba(172, 160, 160, 0.452);
+                    }
+                    th{
+                        border-bottom: 5px solid black;
+                        background-color: #212529;
+                        color: white;
+                        padding: 5px;
+                    }
+                }
+                tr{
+                    td{
+                        border: 1px solid black;
+                        padding: 2px;
+                    }
+                }
+            }
+        }
+    }
+}

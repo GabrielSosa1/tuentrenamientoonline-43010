@@ -1,0 +1,63 @@
+/*****PAGINA-RUTINAS*****/
+/*****MAIN*****/
+.introduccion{
+    div{
+        h2{
+            font-size: 50px;
+            font-style: italic;
+            font-family: 'Poppins', sans-serif;
+            color: rgb(226, 121, 51);
+            padding: 15px;
+        }
+        p{
+            font-size: 20px;
+            font-style: italic;
+            font-family: 'Poppins', sans-serif;
+            padding: 0 0 0 15px;
+        }
+    }
+}
+.distribucion{
+    h3{
+        color: rgb(226, 121, 51);
+        text-align: center;
+    }
+    .tabla{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 25px;
+        table{
+            background-color: white;
+            text-align: left;
+            width: 50%;
+            height: 100%;
+            border: 1px solid black;
+            tbody{
+                tr{
+                    &:nth-child(even){
+                        background-color: rgba(172, 160, 160, 0.452);
+                    }
+                    th{
+                        border-bottom: 5px solid black;
+                        background-color: #212529;
+                        color: white;
+                        padding: 5px;
+                    }
+                }
+                tr{
+                    td{
+                        border: 1px solid black;
+                        padding: 2px;
+                    }
+                }
+            }
+        }
+    }
+    .tabla{
+        .entreno{
+            text-align: center;
+        }
+    }
+}
