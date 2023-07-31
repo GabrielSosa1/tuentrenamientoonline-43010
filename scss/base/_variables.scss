@@ -32,4 +32,13 @@ $paleta-colores:
     @extend %tabla-flex;
 }
 
+%index-hero{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @extend %index-hero;
+}
+
 

@@ -8,11 +8,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #f1f512;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @extend %index-hero;
     h2{
         display: inline-block;
         font-size: 100px;
