@@ -24,7 +24,7 @@ header nav div a img {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: rgb(241, 245, 18);
+    color: #f1f512;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -36,7 +36,7 @@ header nav div a img {
     display: inline-block;
     font-size: 100px;
     font-family: 'Bebas Neue', sans-serif;
-    border-block-end: 2px red solid;
+    border-block-end: 2px #ff0000 solid;
     padding: 10px;
 }
 
@@ -44,7 +44,7 @@ header nav div a img {
     display: inline-block;
     font-size: 50px;
     font-family: 'Bebas Neue', sans-serif;
-    border-block-end: 2px red solid;
+    border-block-end: 2px #ff0000 solid;
 }
 
 .grid-galeria {
@@ -62,15 +62,15 @@ header nav div a img {
 }
 
 .musculos h2 {
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     padding: 20px;
-    -moz-box-shadow: 3px 27px 32px 6px rgba(0, 50, 240, 0.78);
-    -webkit-box-shadow: 3px 27px 32px 6px rgba(0, 50, 240, 0.78);
-    box-shadow: 3px 27px 32px 6px rgba(0, 50, 240, 0.78);
+    -moz-box-shadow: 3px 27px 32px 6px #0032f0c7;
+    -webkit-box-shadow: 3px 27px 32px 6px #0032f0c7;
+    box-shadow: 3px 27px 32px 6px #0032f0c7;
 }
 
 .musculos .musc-flex {
@@ -85,15 +85,15 @@ header nav div a img {
 .musculos .musc-flex div {
     width: 200px;
     height: 225px;
-    border: 5px solid black;
+    border: 5px solid #000000;
     text-align: center;
-    background-color: rgb(226, 121, 51);
+    background-color: #e27933;
     margin: 70px;
     border-radius: 25%;
     display: inline-block;
-    -moz-box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
-    -webkit-box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
-    box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
+    -moz-box-shadow: 16px 14px 29px 9px #0032f0c7;
+    -webkit-box-shadow: 16px 14px 29px 9px #0032f0c7;
+    box-shadow: 16px 14px 29px 9px #0032f0c7;
     transition: 2s;
 }
 
@@ -111,15 +111,15 @@ header nav div a img {
     text-decoration: none;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
-    color: white;
-    background-color: rgb(226, 121, 51);
+    color: #ffffff;
+    background-color: #e27933;
     cursor: pointer;
     transition: all 400ms ease;
     padding: 5px;
 }
 
 .musculos .musc-flex div .boton:hover {
-    color: rgba(0, 50, 240, 0.78);
+    color: #0032f0c7;
     transition: 1s;
 }
 
@@ -151,7 +151,7 @@ footer div a img {
     font-size: 50px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
-    color: rgb(226, 121, 51);
+    color: #e27933;
     padding: 15px;
 }
 
@@ -163,7 +163,7 @@ footer div a img {
 }
 
 .distribucion h3 {
-    color: rgb(226, 121, 51);
+    color: #e27933;
     text-align: center;
 }
 
@@ -176,26 +176,26 @@ footer div a img {
 }
 
 .distribucion .tabla table {
-    background-color: white;
+    background-color: #ffffff;
     text-align: left;
     width: 50%;
     height: 100%;
-    border: 1px solid black;
+    border: 1px solid #000000;
 }
 
 .distribucion .tabla table tbody tr:nth-child(even) {
-    background-color: rgba(172, 160, 160, 0.452);
+    background-color: #aca0a073;
 }
 
 .distribucion .tabla table tbody tr th {
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #000000;
     background-color: #212529;
-    color: white;
+    color: #ffffff;
     padding: 5px;
 }
 
 .distribucion .tabla table tbody tr td {
-    border: 1px solid black;
+    border: 1px solid #000000;
     padding: 2px;
 }
 
@@ -206,7 +206,7 @@ footer div a img {
 
 /*****PAGINA-FUNCIONAL*****/
 .funcional-1 h2 {
-    color: rgb(226, 121, 51);
+    color: #e27933;
     font-size: 50px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
@@ -221,7 +221,7 @@ footer div a img {
 }
 
 .funcional-1 h3 {
-    color: rgb(226, 121, 51);
+    color: #e27933;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
     padding: 0 0 0 15px;
@@ -231,19 +231,19 @@ footer div a img {
     font-size: 20px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
-    color: rgba(0, 50, 240, 0.78);
+    color: #0032f0c7;
     margin: 0 0 0 35px;
 }
 
 .funcional-1 .mejora ul li p {
-    color: black;
+    color: #000000;
 }
 
 .funcional-2 .tipos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: rgb(226, 121, 51);
+    color: #e27933;
     font-size: 50px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
@@ -254,7 +254,7 @@ footer div a img {
 }
 
 .funcional-2 .entrenamientos h3 {
-    color: rgb(226, 121, 51);
+    color: #e27933;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
     padding: 0 0 0 15px;
@@ -264,19 +264,19 @@ footer div a img {
     font-size: 20px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
-    color: rgba(0, 50, 240, 0.78);
+    color: #0032f0c7;
     margin: 0 0 0 35px;
 }
 
 .funcional-2 .entrenamientos ul li p {
-    color: black;
+    color: #000000;
 }
 
 .funcional-2 .ejemplos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: rgb(226, 121, 51);
+    color: #e27933;
     font-size: 50px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
@@ -286,7 +286,7 @@ footer div a img {
     width: 750px;
 }
 
-.funcional-2 .ejemplo-tabla {
+.funcional-2 .ejemplo-tabla-1 {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -294,27 +294,91 @@ footer div a img {
     padding: 25px;
 }
 
-.funcional-2 .ejemplo-tabla table {
-    background-color: white;
+.funcional-2 .ejemplo-tabla-1 table {
+    background-color: #ffffff;
     text-align: center;
     width: 50%;
     height: 100%;
-    border: 1px solid black;
+    border: 1px solid #000000;
 }
 
-.funcional-2 .ejemplo-tabla table tbody tr:nth-child(even) {
-    background-color: rgba(172, 160, 160, 0.452);
+.funcional-2 .ejemplo-tabla-1 table tbody tr:nth-child(even) {
+    background-color: #aca0a073;
 }
 
-.funcional-2 .ejemplo-tabla table tbody tr th {
-    border-bottom: 5px solid black;
+.funcional-2 .ejemplo-tabla-1 table tbody tr th {
+    border-bottom: 5px solid #000000;
     background-color: #212529;
-    color: white;
+    color: #ffffff;
     padding: 5px;
 }
 
-.funcional-2 .ejemplo-tabla table tbody tr td {
-    border: 1px solid black;
+.funcional-2 .ejemplo-tabla-1 table tbody tr td {
+    border: 1px solid #000000;
+    padding: 2px;
+}
+
+.funcional-2 .ejemplo-tabla-2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+
+.funcional-2 .ejemplo-tabla-2 table {
+    background-color: #ffffff;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    border: 1px solid #000000;
+}
+
+.funcional-2 .ejemplo-tabla-2 table tbody tr:nth-child(even) {
+    background-color: #aca0a073;
+}
+
+.funcional-2 .ejemplo-tabla-2 table tbody tr th {
+    border-bottom: 5px solid #000000;
+    background-color: #212529;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.funcional-2 .ejemplo-tabla-2 table tbody tr td {
+    border: 1px solid #000000;
+    padding: 2px;
+}
+
+.funcional-2 .ejemplo-tabla-3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+
+.funcional-2 .ejemplo-tabla-3 table {
+    background-color: #ffffff;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    border: 1px solid #000000;
+}
+
+.funcional-2 .ejemplo-tabla-3 table tbody tr:nth-child(even) {
+    background-color: #aca0a073;
+}
+
+.funcional-2 .ejemplo-tabla-3 table tbody tr th {
+    border-bottom: 5px solid #000000;
+    background-color: #212529;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.funcional-2 .ejemplo-tabla-3 table tbody tr td {
+    border: 1px solid #000000;
     padding: 2px;
 }
 
@@ -332,7 +396,7 @@ footer div a img {
     font-size: 50px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
-    color: rgb(226, 121, 51);
+    color: #e27933;
     padding:15px;
 }
 
@@ -347,7 +411,7 @@ footer div a img {
     font-size: 30px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
-    color: rgb(226, 121, 51);
+    color: #e27933;
     padding:0 0 0 15px;
 }
 
@@ -362,13 +426,13 @@ footer div a img {
     font-size: 20px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
-    color: rgba(0, 50, 240, 0.78);
+    color: #0032f0c7;
     margin: 0 0 0 35px;
     padding:0 20px 0 0;
 }
 
 .elongar div ul li p {
-    color: black;
+    color: #000000;
 }
 
 .elongar div img {
@@ -383,7 +447,7 @@ footer div a img {
     font-size: 50px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
-    color: rgb(226, 121, 51);
+    color: #e27933;
     padding: 15px;
 }
 
@@ -391,7 +455,7 @@ footer div a img {
     font-size: 25px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
-    color: rgb(226, 121, 51);
+    color: #e27933;
     padding: 0 0 0 15px;
 }
 
@@ -413,7 +477,7 @@ footer div a img {
     font-size: 20px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
-    color: rgba(0, 50, 240, 0.78);
+    color: #0032f0c7;
     margin: 0 0 0 35px;
     padding: 0 20px 0 0;
 }
@@ -428,11 +492,11 @@ footer div a img {
 
 /*****PAGINA-CONTACTO-BOOTSTRAP*****/
 .main-contacto {
-    background-color: cadetblue;
+    background-color: #5f9ea0;
 }
 
 .container {
-    background-color: rgb(226, 121, 51) !important;
+    background-color: #e27933 !important;
 }
 
 /*****MEDIA-QUERIES-INDEX*****/

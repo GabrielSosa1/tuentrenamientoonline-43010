@@ -12,7 +12,7 @@
         font-size: 50px;
         font-style: italic;
         font-family: 'Poppins', sans-serif;
-        color: rgb(226, 121, 51);
+        color: #e27933;
         padding:15px;
     }
     p{
@@ -25,24 +25,22 @@
         font-size: 30px;
         font-style: italic;
         font-family: 'Poppins', sans-serif;
-        color: rgb(226, 121, 51);
+        color: #e27933;
         padding:0 0 0 15px;
     }
     div{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex (flex,center,center);
         width: 90%;
         ul{
             li{
                 font-size: 20px;
                 font-style: italic;
                 font-family: 'Poppins', sans-serif;
-                color: rgba(0, 50, 240, 0.78);
+                color: #0032f0c7;
                 margin: 0 0 0 35px;
                 padding:0 20px 0 0;
                 p{
-                    color: black;
+                    color: #000000;
                 }
             }
         }
@@ -60,14 +58,14 @@
         font-size: 50px;
         font-style: italic;
         font-family: 'Poppins', sans-serif;
-        color: rgb(226, 121, 51);
+        color: #e27933;
         padding: 15px;
     }
     h3{
         font-size: 25px;
         font-style: italic;
         font-family: 'Poppins', sans-serif;
-        color: rgb(226, 121, 51);
+        color: #e27933;
         padding: 0 0 0 15px;
     }
     p{
@@ -77,16 +75,14 @@
         padding: 0 0 0 15px;
     }
     div{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex (flex, center, center);
         width: 90%;
         ul{
             li{
                 font-size: 20px;
                 font-style: italic;
                 font-family: 'Poppins', sans-serif;
-                color: rgba(0, 50, 240, 0.78);
+                color: #0032f0c7;
                 margin: 0 0 0 35px;
                 padding: 0 20px 0 0;
             }

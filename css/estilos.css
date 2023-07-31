@@ -6,6 +6,10 @@
   padding: 0;
   box-sizing: border-box; }
 
+.funcional-2 .ejemplo-tabla-1, .funcional-2 .ejemplo-tabla-2, .funcional-2 .ejemplo-tabla-3 {
+  display: flex;
+  justify-content: center; }
+
 /*****HEADER-BOOTSTRAP*****/
 header nav div img {
   width: 200px;
@@ -30,7 +34,7 @@ header nav div img {
     display: inline-block;
     font-size: 100px;
     font-family: 'Bebas Neue', sans-serif;
-    border-block-end: 2px red solid;
+    border-block-end: 2px #ff0000 solid;
     padding: 10px; }
   .hero p {
     margin-top: 5px;
@@ -52,15 +56,15 @@ header nav div img {
     height: 100%; }
 
 .musculos h2 {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
   font-style: italic;
   font-family: 'Poppins', sans-serif;
   text-align: center;
   padding: 20px;
-  -moz-box-shadow: 3px 27px 32px 6px rgba(0, 50, 240, 0.78);
-  -webkit-box-shadow: 3px 27px 32px 6px rgba(0, 50, 240, 0.78);
-  box-shadow: 3px 27px 32px 6px rgba(0, 50, 240, 0.78); }
+  -moz-box-shadow: 3px 27px 32px 6px #0032f0c7;
+  -webkit-box-shadow: 3px 27px 32px 6px #0032f0c7;
+  box-shadow: 3px 27px 32px 6px #0032f0c7; }
 
 .musculos .musc-flex {
   display: flex;
@@ -72,15 +76,15 @@ header nav div img {
   .musculos .musc-flex div {
     width: 200px;
     height: 225px;
-    border: 5px solid black;
+    border: 5px solid #000000;
     text-align: center;
     background-color: #e27933;
     margin: 70px;
     border-radius: 25%;
     display: inline-block;
-    -moz-box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
-    -webkit-box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
-    box-shadow: 16px 14px 29px 9px rgba(0, 50, 240, 0.78);
+    -moz-box-shadow: 16px 14px 29px 9px #0032f0c7;
+    -webkit-box-shadow: 16px 14px 29px 9px #0032f0c7;
+    box-shadow: 16px 14px 29px 9px #0032f0c7;
     transition: 2s; }
     .musculos .musc-flex div:hover {
       transform: scale(1.3); }
@@ -92,13 +96,13 @@ header nav div img {
       text-decoration: none;
       font-style: italic;
       font-family: 'Poppins', sans-serif;
-      color: white;
+      color: #ffffff;
       background-color: #e27933;
       cursor: pointer;
       transition: all 400ms ease;
       padding: 5px; }
       .musculos .musc-flex div .boton:hover {
-        color: rgba(0, 50, 240, 0.78);
+        color: #0032f0c7;
         transition: 1s; }
 
 /*****PAGINA-RUTINAS*****/
@@ -127,20 +131,20 @@ header nav div img {
   height: 100%;
   padding: 25px; }
   .distribucion .tabla table {
-    background-color: white;
+    background-color: #ffffff;
     text-align: left;
     width: 50%;
     height: 100%;
-    border: 1px solid black; }
+    border: 1px solid #000000; }
     .distribucion .tabla table tbody tr:nth-child(even) {
-      background-color: rgba(172, 160, 160, 0.452); }
+      background-color: #aca0a073; }
     .distribucion .tabla table tbody tr th {
       border-bottom: 5px solid black;
       background-color: #212529;
-      color: white;
+      color: #ffffff;
       padding: 5px; }
     .distribucion .tabla table tbody tr td {
-      border: 1px solid black;
+      border: 1px solid #000000;
       padding: 2px; }
 
 .distribucion .tabla .entreno {
@@ -170,10 +174,10 @@ header nav div img {
   font-size: 20px;
   font-style: italic;
   font-family: 'Poppins', sans-serif;
-  color: rgba(0, 50, 240, 0.78);
+  color: #0032f0c7;
   margin: 0 0 0 35px; }
   .funcional-1 .mejora ul li p {
-    color: black; }
+    color: #000000; }
 
 .funcional-2 .tipos {
   display: flex;
@@ -196,10 +200,10 @@ header nav div img {
   font-size: 20px;
   font-style: italic;
   font-family: 'Poppins', sans-serif;
-  color: rgba(0, 50, 240, 0.78);
+  color: #0032f0c7;
   margin: 0 0 0 35px; }
   .funcional-2 .entrenamientos ul li p {
-    color: black; }
+    color: #000000; }
 
 .funcional-2 .ejemplos {
   display: flex;
@@ -212,26 +216,64 @@ header nav div img {
   .funcional-2 .ejemplos img {
     width: 750px; }
 
-.funcional-2 .ejemplo-tabla {
-  display: flex;
-  justify-content: center;
+.funcional-2 .ejemplo-tabla-1 {
   width: 100%;
   height: 100%;
   padding: 25px; }
-  .funcional-2 .ejemplo-tabla table {
+  .funcional-2 .ejemplo-tabla-1 table {
     text-align: center;
     width: 50%;
     height: 100%;
-    border: 1px solid black; }
-    .funcional-2 .ejemplo-tabla table tbody tr:nth-child(even) {
-      background-color: rgba(172, 160, 160, 0.452); }
-    .funcional-2 .ejemplo-tabla table tbody tr th {
-      border-bottom: 5px solid black;
+    border: 1px solid #000000; }
+    .funcional-2 .ejemplo-tabla-1 table tbody tr:nth-child(even) {
+      background-color: #aca0a073; }
+    .funcional-2 .ejemplo-tabla-1 table tbody tr th {
+      border-bottom: 5px solid #000000;
       background-color: #212529;
-      color: white;
+      color: #ffffff;
       padding: 5px; }
-    .funcional-2 .ejemplo-tabla table tbody tr td {
-      border: 1px solid black;
+    .funcional-2 .ejemplo-tabla-1 table tbody tr td {
+      border: 1px solid #000000;
+      padding: 2px; }
+
+.funcional-2 .ejemplo-tabla-2 {
+  width: 100%;
+  height: 100%;
+  padding: 25px; }
+  .funcional-2 .ejemplo-tabla-2 table {
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    border: 1px solid #000000; }
+    .funcional-2 .ejemplo-tabla-2 table tbody tr:nth-child(even) {
+      background-color: #aca0a073; }
+    .funcional-2 .ejemplo-tabla-2 table tbody tr th {
+      border-bottom: 5px solid #000000;
+      background-color: #212529;
+      color: #ffffff;
+      padding: 5px; }
+    .funcional-2 .ejemplo-tabla-2 table tbody tr td {
+      border: 1px solid #000000;
+      padding: 2px; }
+
+.funcional-2 .ejemplo-tabla-3 {
+  width: 100%;
+  height: 100%;
+  padding: 25px; }
+  .funcional-2 .ejemplo-tabla-3 table {
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    border: 1px solid #000000; }
+    .funcional-2 .ejemplo-tabla-3 table tbody tr:nth-child(even) {
+      background-color: #aca0a073; }
+    .funcional-2 .ejemplo-tabla-3 table tbody tr th {
+      border-bottom: 5px solid #000000;
+      background-color: #212529;
+      color: #ffffff;
+      padding: 5px; }
+    .funcional-2 .ejemplo-tabla-3 table tbody tr td {
+      border: 1px solid #000000;
       padding: 2px; }
 
 /*****PAGINA-ELONGACIONES*****/
@@ -265,18 +307,18 @@ header nav div img {
 
 .elongar div {
   display: flex;
-  justify-content: center;
+  flex-direction: center;
   align-items: center;
   width: 90%; }
   .elongar div ul li {
     font-size: 20px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
-    color: rgba(0, 50, 240, 0.78);
+    color: #0032f0c7;
     margin: 0 0 0 35px;
     padding: 0 20px 0 0; }
     .elongar div ul li p {
-      color: black; }
+      color: #000000; }
   .elongar div img {
     width: 500px;
     height: 450px;
@@ -306,14 +348,14 @@ header nav div img {
 
 .beneficios div {
   display: flex;
-  justify-content: center;
+  flex-direction: center;
   align-items: center;
   width: 90%; }
   .beneficios div ul li {
     font-size: 20px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
-    color: rgba(0, 50, 240, 0.78);
+    color: #0032f0c7;
     margin: 0 0 0 35px;
     padding: 0 20px 0 0; }
   .beneficios div img {
@@ -325,7 +367,7 @@ header nav div img {
 
 /*****PAGINA-CONTACTO-BOOTSTRAP*****/
 .main-contacto {
-  background-color: cadetblue; }
+  background-color: #5f9ea0; }
 
 .container {
   background-color: #e27933 !important; }

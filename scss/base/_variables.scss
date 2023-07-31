@@ -1,0 +1,35 @@
+$paleta-colores:
+#f1f512,
+#ff0000,
+#000000,
+#ffffff,
+#0032f0c7,
+#e27933,
+#212529,
+#aca0a073,
+#5f9ea0;
+
+
+//*MIXINS
+
+@mixin flex ($flex,$justify,$align){
+    display:$flex;
+    justify-content:$justify;
+    align-items:$align;
+}
+
+@mixin flex ($flex, $column, $center){
+    display:$flex ;
+    flex-direction:$column ;
+    align-items:$center ;
+}
+
+//*EXTENDS
+
+%tabla-flex{
+    display: flex;
+    justify-content: center;
+    @extend %tabla-flex;
+}
+
+
