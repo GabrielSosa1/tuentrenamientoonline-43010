@@ -32,7 +32,7 @@ header nav div a img {
     align-items: center;
 }
 
-.hero h2 {
+.hero h1 {
     display: inline-block;
     font-size: 100px;
     font-family: 'Bebas Neue', sans-serif;
@@ -147,7 +147,7 @@ footer div a img {
 
 /*****PAGINA-RUTINAS*****/
 /*****MAIN*****/
-.introduccion div h2 {
+.introduccion div h1 {
     font-size: 50px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
@@ -162,7 +162,7 @@ footer div a img {
     padding: 0 0 0 15px;
 }
 
-.distribucion h3 {
+.distribucion h2 {
     color: #e27933;
     text-align: center;
 }
@@ -382,7 +382,7 @@ footer div a img {
 
 /*****PAGINA-FUNCIONAL*****/
 /*****MAIN*****/
-.funcional-1 h2 {
+.funcional-1 h1 {
     color: #e27933;
     font-size: 50px;
     font-style: italic;
@@ -397,7 +397,7 @@ footer div a img {
     padding: 0 0 0 15px;
 }
 
-.funcional-1 h3 {
+.funcional-1 h2 {
     color: #e27933;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
@@ -569,7 +569,7 @@ footer div a img {
     background-repeat: no-repeat;
 }
 
-.elongar h2 {
+.elongar h1 {
     font-size: 50px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
@@ -584,7 +584,7 @@ footer div a img {
     padding: 0 0 0 15px;
 }
 
-.elongar h3 {
+.elongar h2 {
     font-size: 30px;
     font-style: italic;
     font-family: 'Poppins', sans-serif;
@@ -679,7 +679,7 @@ footer div a img {
 /*****MEDIA-QUERIES-INDEX*****/
 
 @media screen and (max-width:900px) {
-    .hero h2 {
+    .hero h1 {
         font-size: 60px;
     }
 
@@ -689,7 +689,7 @@ footer div a img {
 }
 
 @media screen and (max-width:615px) {
-    .hero h2 {
+    .hero h1 {
         font-size: 60px;
     }
 
@@ -699,7 +699,7 @@ footer div a img {
 }
 
 @media screen and (max-width:530px) {
-    .hero h2 {
+    .hero h1 {
         font-size: 50px;
     }
 
@@ -709,7 +709,7 @@ footer div a img {
 }
 
 @media screen and (max-width:445px) {
-    .hero h2 {
+    .hero h1 {
         font-size: 40px;
     }
 
@@ -719,7 +719,7 @@ footer div a img {
 }
 
 @media screen and (max-width:360px) {
-    .hero h2 {
+    .hero h1 {
         font-size: 30px;
     }
 
@@ -764,19 +764,19 @@ footer div a img {
 
 /*****MEDIA-QUERIES-RUTINAS*****/
 @media screen and (max-width:905px) {
-    .introduccion div h2 {
+    .introduccion div h1 {
         font-size: 45px;
     }
 }
 
 @media screen and (max-width:819px) {
-    .introduccion div h2 {
+    .introduccion div h1 {
         font-size: 35px;
     }
 }
 
 @media screen and (max-width:370px) {
-    .introduccion div h2 {
+    .introduccion div h1 {
         font-size: 30px;
     }
 
@@ -814,7 +814,7 @@ footer div a img {
 
 /*****MEDIA-QUERIES-FUNCIONAL*****/
 @media screen and (max-width:768px) {
-    .funcional-1 h2 {
+    .funcional-1 h1 {
         font-size: 45px;
     }
 }
@@ -885,7 +885,7 @@ footer div a img {
 }
 
 @media screen and (max-width:576px) {
-    .elongar h2 {
+    .elongar h1 {
         font-size: 35px;
     }
 
@@ -893,7 +893,7 @@ footer div a img {
         font-size: 18px;
     }
 
-    .elongar h3 {
+    .elongar h2 {
         font-size: 20px;
     }
 
@@ -907,7 +907,7 @@ footer div a img {
 }
 
 @media screen and (max-width:400px) {
-    .elongar h2{
+    .elongar h1{
         font-size: 30px;
     }
     .elongar p{
