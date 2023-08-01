@@ -6,6 +6,12 @@
   padding: 0;
   box-sizing: border-box; }
 
+.main-contacto {
+  background-color: #5f9ea0; }
+
+.container {
+  background-color: #e27933 !important; }
+
 .distribucion .tabla-1, .distribucion .tabla-2, .distribucion .tabla-3, .distribucion .tabla-4, .distribucion .tabla-5, .distribucion .tabla-6, .funcional-2 .ejemplo-tabla-1, .funcional-2 .ejemplo-tabla-2, .funcional-2 .ejemplo-tabla-3 {
   display: flex;
   justify-content: center; }
@@ -39,12 +45,10 @@ header nav div img {
     border-block-end: 2px #ff0000 solid;
     padding: 10px; }
   .hero p {
-    margin-top: 5px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 200px;
-    gap: 5px; }
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    border-block-end: 2px #ff0000 solid; }
 
 .grid-galeria {
   margin-top: 5px;
@@ -108,7 +112,6 @@ header nav div img {
         transition: 1s; }
 
 /*****PAGINA-RUTINAS*****/
-/*****MAIN*****/
 .introduccion div h2 {
   font-size: 50px;
   font-style: italic;
@@ -397,7 +400,6 @@ header nav div img {
       padding: 2px; }
 
 /*****PAGINA-ELONGACIONES*****/
-/*****MAIN*****/
 .fondo-imagen {
   width: 100%;
   background-image: url(../img/fondo-elongar.png);
@@ -507,3 +509,174 @@ footer {
     width: 30px;
     height: 30px;
     margin: 5px; }
+
+/*****MEDIA-QUERIES-INDEX*****/
+@media screen and (max-width: 900px) {
+  .hero h2 {
+    font-size: 60px; }
+  .hero p {
+    font-size: 30px; } }
+
+@media screen and (max-width: 615px) {
+  .hero h2 {
+    font-size: 60px; }
+  .hero p {
+    font-size: 30px; } }
+
+@media screen and (max-width: 530px) {
+  .hero h2 {
+    font-size: 50px; }
+  .hero p {
+    font-size: 25px; } }
+
+@media screen and (max-width: 445px) {
+  .hero h2 {
+    font-size: 40px; }
+  .hero p {
+    font-size: 25px; } }
+
+@media screen and (max-width: 360px) {
+  .hero h2 {
+    font-size: 30px; }
+  .hero p {
+    font-size: 20px; } }
+
+@media screen and (max-width: 950px) {
+  .grid-galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 170px; }
+    .grid-galeria .grid-foto {
+      grid-column: span 1;
+      grid-row: span 1; }
+    .grid-galeria .img4 {
+      grid-column: span 1;
+      grid-row: span 1; } }
+
+@media screen and (max-width: 450px) {
+  .grid-galeria {
+    grid-template-columns: 1fr; }
+    .grid-galeria .grid-foto {
+      grid-column: span 1;
+      grid-row: span 1; } }
+
+@media screen and (max-width: 640px) {
+  footer img {
+    width: 125px; } }
+
+/*****MEDIA-QUERIES-RUTINAS*****/
+@media screen and (max-width: 905px) {
+  .introduccion div h2 {
+    font-size: 35px; } }
+
+@media screen and (max-width: 370px) {
+  .introduccion div h2 {
+    font-size: 30px; }
+  .introduccion div p {
+    font-size: 18px; } }
+
+@media screen and (max-width: 643px) {
+  .introduccion div p {
+    font-size: 18px; } }
+
+@media screen and (max-width: 768px) {
+  .distribucion .tabla-1 {
+    font-size: 12px; }
+  .distribucion .tabla-2 {
+    font-size: 12px; }
+  .distribucion .tabla-3 {
+    font-size: 12px; }
+  .distribucion .tabla-4 {
+    font-size: 12px; }
+  .distribucion .tabla-5 {
+    font-size: 12px; }
+  .distribucion .tabla-6 {
+    font-size: 12px; } }
+
+/*****MEDIA-QUERIES-FUNCIONAL*****/
+@media screen and (max-width: 768px) {
+  .funcional-1 h2 {
+    font-size: 45px; } }
+
+@media screen and (max-width: 640px) {
+  .funcional-1 p {
+    font-size: 18px; }
+  .funcional-1 .mejora ul li p {
+    font-size: 18px; } }
+
+@media screen and (max-width: 800px) {
+  .funcional-2 .tipos img {
+    width: 600px; }
+  .funcional-2 .ejemplos img {
+    width: 550px; } }
+
+@media screen and (max-width: 600px) {
+  .funcional-2 .tipos h2 {
+    display: none; }
+  .funcional-2 .tipos img {
+    display: none; }
+  .funcional-2 .ejemplos img {
+    display: none; } }
+
+@media screen and (max-width: 640px) {
+  .funcional-2 .entrenamientos ul li p {
+    font-size: 18px; } }
+
+@media screen and (max-width: 420px) {
+  .funcional-2 .ejemplos h3 {
+    font-size: 20px; } }
+
+@media screen and (max-width: 576px) {
+  .funcional-2 .ejemplo-tabla-1 {
+    font-size: 12px; }
+  .funcional-2 .ejemplo-tabla-2 {
+    font-size: 12px; }
+  .funcional-2 .ejemplo-tabla-3 {
+    font-size: 12px; } }
+
+/*****MEDIA-QUERIES-ELONGACIONES*****/
+@media screen and (max-width: 870px) {
+  .elongar div img {
+    display: none; } }
+
+@media screen and (max-width: 576px) {
+  .elongar h2 {
+    font-size: 35px; }
+  .elongar p {
+    font-size: 18px; }
+  .elongar h3 {
+    font-size: 20px; }
+  .elongar div ul li strong {
+    font-size: 18px; }
+  .elongar div ul li p {
+    font-size: 15px; } }
+
+@media screen and (max-width: 400px) {
+  .elongar h2 {
+    font-size: 30px; }
+  .elongar p {
+    font-size: 18px; } }
+
+@media screen and (max-width: 870px) {
+  .beneficios {
+    flex-direction: column; }
+    .beneficios div img {
+      display: none; } }
+
+@media screen and (max-width: 576px) {
+  .beneficios h2 {
+    font-size: 35px; }
+  .beneficios h3 {
+    font-size: 20px; }
+  .beneficios p {
+    font-size: 15px; }
+  .beneficios div ul li strong {
+    font-size: 18px; } }
+
+@media screen and (max-width: 400px) {
+  .beneficios h2 {
+    font-size: 30px; } }
+
+@media screen and (max-width: 900px) {
+  .beneficios div img {
+    width: 350px;
+    height: 250px; } }

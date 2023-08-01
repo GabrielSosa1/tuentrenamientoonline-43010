@@ -14,7 +14,7 @@ header nav div a img {
     width: 200px;
     height: 100%;
 }
-
+/*****INDEX*****/
 /***** MAIN *****/
 .hero {
     width: 100%;
@@ -381,6 +381,7 @@ footer div a img {
 
 
 /*****PAGINA-FUNCIONAL*****/
+/*****MAIN*****/
 .funcional-1 h2 {
     color: #e27933;
     font-size: 50px;
@@ -791,10 +792,24 @@ footer div a img {
 }
 
 @media screen and (max-width:768px) {
-    .distribucion .tabla {
+    .distribucion .tabla-1 {
         font-size: 12px;
     }
-
+    .tabla-2{
+        font-size: 12px;
+    }
+    .tabla-3{
+        font-size: 12px;
+    }
+    .tabla-4{
+        font-size: 12px;
+    }
+    .tabla-5{
+        font-size: 12px;
+    }
+    .tabla-6{
+        font-size: 12px;
+    }
 }
 
 /*****MEDIA-QUERIES-FUNCIONAL*****/
@@ -811,16 +826,6 @@ footer div a img {
 
     .funcional-1 .mejora ul li p {
         font-size: 18px;
-    }
-
-    .funcional-2 .entrenamientos ul li p {
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width:420px) {
-    .funcional-2 .ejemplos h3 {
-        font-size: 20px;
     }
 }
 
@@ -848,8 +853,26 @@ footer div a img {
     }
 }
 
+@media screen and (max-width:640px){
+    .funcional-2 .entrenamientos ul li p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .funcional-2 .ejemplos h3 {
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width:576px) {
-    .funcional-2 .ejemplo-tabla {
+    .funcional-2 .ejemplo-tabla-1 {
+        font-size: 12px;
+    }
+    .ejemplo-tabla-2{
+        font-size: 12px;
+    }
+    .ejemplo-tabla-3{
         font-size: 12px;
     }
 }
@@ -906,16 +929,16 @@ footer div a img {
         font-size: 35px;
     }
 
-    .beneficios div ul li strong{
-        font-size: 18px;
-    }
-
     .beneficios h3 {
         font-size: 20px;
     }
 
     .beneficios p {
         font-size: 15px;
+    }
+
+    .beneficios div ul li strong{
+        font-size: 18px;
     }
 }
 
