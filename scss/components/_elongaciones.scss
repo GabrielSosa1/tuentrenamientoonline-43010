@@ -1,49 +1,56 @@
 /*****PAGINA-ELONGACIONES*****/
-.fondo-imagen{
+.fondo-imagen {
     width: 100%;
     background-image: url(../img/fondo-elongar.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.elongar{
-    h1{
+
+.elongar {
+    h1 {
         font-size: 50px;
         font-style: italic;
         font-family: 'Poppins', sans-serif;
         color: #e27933;
-        padding:15px;
+        padding: 15px;
     }
-    p{
+
+    p {
         font-size: 20px;
         font-style: italic;
         font-family: 'Poppins', sans-serif;
         padding: 0 0 0 15px;
     }
-    h2{
+
+    h2 {
         font-size: 30px;
         font-style: italic;
         font-family: 'Poppins', sans-serif;
         color: #e27933;
-        padding:0 0 0 15px;
+        padding: 0 0 0 15px;
     }
-    div{
-        @include flex (flex,center,center);
+
+    div {
+        @include flex (flex, center, center);
         width: 90%;
-        ul{
-            li{
+
+        ul {
+            li {
                 font-size: 20px;
                 font-style: italic;
                 font-family: 'Poppins', sans-serif;
                 color: #0032f0c7;
                 margin: 0 0 0 35px;
-                padding:0 20px 0 0;
-                p{
+                padding: 0 20px 0 0;
+
+                p {
                     color: #000000;
                 }
             }
         }
-        img{
+
+        img {
             width: 500px;
             height: 450px;
             -moz-box-shadow: 2px 12px 26px 16px #212529;
@@ -52,32 +59,44 @@
         }
     }
 }
-.beneficios{   
-    h2{
+
+.beneficios {
+    h2 {
         font-size: 50px;
         font-style: italic;
         font-family: 'Poppins', sans-serif;
         color: #e27933;
         padding: 15px;
     }
-    h3{
+
+    h3 {
         font-size: 25px;
         font-style: italic;
         font-family: 'Poppins', sans-serif;
         color: #e27933;
         padding: 0 0 0 15px;
+        animation: h3-animation 1s steps(5, start) infinite;
+
+        @keyframes h3-animation {
+            to {
+                visibility: hidden;
+            }
+        }
     }
-    p{
+
+    p {
         font-size: 20px;
         font-style: italic;
         font-family: 'Poppins', sans-serif;
         padding: 0 0 0 15px;
     }
-    div{
+
+    div {
         @include flex (flex, center, center);
         width: 90%;
-        ul{
-            li{
+
+        ul {
+            li {
                 font-size: 20px;
                 font-style: italic;
                 font-family: 'Poppins', sans-serif;
@@ -86,7 +105,8 @@
                 padding: 0 20px 0 0;
             }
         }
-        img{
+
+        img {
             width: 450px;
             height: 350px;
             -moz-box-shadow: 2px 12px 26px 16px #212529;

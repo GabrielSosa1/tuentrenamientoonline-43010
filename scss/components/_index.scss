@@ -1,62 +1,64 @@
 /***** MAIN *****/
-.hero{
+.hero {
     width: 100%;
     height: 90vh;
     background-image: url(../img/fondo-hero.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    @extend %hero-back;
     color: #f1f512;
     @extend %index-hero;
-    h1{
+
+    h1 {
         display: inline-block;
         font-size: 100px;
         font-family: 'Bebas Neue', sans-serif;
         border-block-end: 2px #ff0000 solid;
         padding: 10px;
     }
-    p{
+
+    p {
         display: inline-block;
         font-size: 50px;
         font-family: 'Bebas Neue', sans-serif;
         border-block-end: 2px #ff0000 solid;
     }
 }
-.grid-galeria{
+
+.grid-galeria {
     margin-top: 5px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 200px;
     gap: 5px;
-    .grid-foto{
-        img{
+
+    .grid-foto {
+        img {
             width: 100%;
             height: 100%;
         }
     }
 }
-.musculos{
-    h2{
+
+.musculos {
+    h2 {
         background-color: #000000;
         color: #ffffff;
         font-style: italic;
         font-family: 'Poppins', sans-serif;
         text-align: center;
-        padding: 20px;
-        -moz-box-shadow: 3px 27px 32px 6px #0032f0c7;
-        -webkit-box-shadow: 3px 27px 32px 6px #0032f0c7;
-        box-shadow: 3px 27px 32px 6px #0032f0c7;
+        padding: 10px;
     }
-    .musc-flex{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        overflow: hidden;
+
+    .musc-flex {
+        background: rgb(16,26,79);
+        background: -moz-linear-gradient(90deg, rgba(16,26,79,1) 0%, rgba(60,75,137,0.6362920168067228) 74%, rgba(100,187,180,0.7875525210084033) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(16,26,79,1) 0%, rgba(60,75,137,0.6362920168067228) 74%, rgba(100,187,180,0.7875525210084033) 100%);
+        background: linear-gradient(90deg, rgba(16,26,79,1) 0%, rgba(60,75,137,0.6362920168067228) 74%, rgba(100,187,180,0.7875525210084033) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#101a4f",endColorstr="#64bbb4",GradientType=1);
+        @include cards-flex (flex, space-around, center, wrap, hidden);
         cursor: default;
-        div{
+
+        div {
             width: 200px;
             height: 225px;
             border: 5px solid #000000;
@@ -69,14 +71,17 @@
             -webkit-box-shadow: 16px 14px 29px 9px #0032f0c7;
             box-shadow: 16px 14px 29px 9px #0032f0c7;
             transition: 2s;
-            &:hover{
+
+            &:hover {
                 transform: scale(1.3);
             }
-            img{
+
+            img {
                 width: 150x;
                 height: 150px;
             }
-            .boton{
+
+            .boton {
                 font-size: 15px;
                 text-decoration: none;
                 font-style: italic;
@@ -86,7 +91,8 @@
                 cursor: pointer;
                 transition: all 400ms ease;
                 padding: 5px;
-                &:hover{
+
+                &:hover {
                     color: #0032f0c7;
                     transition: 1s;
                 }

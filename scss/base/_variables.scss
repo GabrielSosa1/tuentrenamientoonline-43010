@@ -1,38 +1,55 @@
-$paleta-colores:
-#f1f512,
-#ff0000,
-#000000,
-#ffffff,
-#0032f0c7,
-#e27933,
-#212529,
-#aca0a073,
-#5f9ea0;
+//*LISTAS
+$paleta-colores: 
+    #f1f512,
+    #ff0000,
+    #000000,
+    #ffffff,
+    #0032f0c7,
+    #e27933,
+    #212529,
+    #aca0a073,
+    #5f9ea0;
+
+$font-size: 15px,
+    20px,
+    25px,
+    30px,
+    50px,
+    100px;
+
 
 
 //*MIXINS
 
-@mixin flex ($flex,$justify,$align){
-    display:$flex;
-    justify-content:$justify;
-    align-items:$align;
+@mixin flex ($flex, $justify, $align) {
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
 }
 
-@mixin flex ($flex, $column, $center){
-    display:$flex ;
-    flex-direction:$column ;
-    align-items:$center ;
+@mixin tabla-flex ($flex, $column, $center) {
+    display: $flex ;
+    flex-direction: $column ;
+    align-items: $center ;
+}
+
+@mixin cards-flex ($flex, $space-around, $center, $wrap, $hidden) {
+    display: $flex ;
+    justify-content: $space-around;
+    align-items: $center ;
+    flex-wrap: $wrap ;
+    overflow: $hidden ;
 }
 
 //*EXTENDS
 
-%tabla-flex{
+%tabla-flex {
     display: flex;
     justify-content: center;
     @extend %tabla-flex;
 }
 
-%index-hero{
+%index-hero {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -41,4 +58,10 @@ $paleta-colores:
     @extend %index-hero;
 }
 
-
+%hero-back {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    @extend %hero-back;
+}

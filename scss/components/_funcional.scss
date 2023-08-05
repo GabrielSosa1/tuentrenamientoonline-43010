@@ -1,104 +1,120 @@
 /*****PAGINA-FUNCIONAL*****/
-.funcional-1{
-    h1{
+.funcional-1 {
+    h1 {
         color: #e27933;
         font-size: 50px;
         font-style: italic;
         font-family: 'Poppins', sans-serif;
         padding: 15px;
     }
-    p{
+
+    p {
         font-size: 20px;
         font-style: italic;
         font-family: 'Poppins', sans-serif;
         padding: 0 0 0 15px;
     }
-    h2{
+
+    h2 {
         color: #e27933;
         font-style: italic;
         font-family: 'Poppins', sans-serif;
         padding: 0 0 0 15px;
     }
-    .mejora{
-        ul{
-            li{
+
+    .mejora {
+        ul {
+            li {
                 font-size: 20px;
                 font-style: italic;
                 font-family: 'Poppins', sans-serif;
                 color: #0032f0c7;
                 margin: 0 0 0 35px;
-                p{
+
+                p {
                     color: #000000;
                 }
             }
         }
     }
 }
-.funcional-2{
-    .tipos{
-        @include flex (flex, column, center);
+
+.funcional-2 {
+    .tipos {
+        @include tabla-flex (flex, column, center);
         color: #e27933;
         font-size: 50px;
         font-style: italic;
         font-family: 'Poppins', sans-serif;
-        img{
+
+        img {
             width: 800px;
         }
     }
-    .entrenamientos{
-        h3{
+
+    .entrenamientos {
+        h3 {
             color: #e27933;
             font-style: italic;
             font-family: 'Poppins', sans-serif;
             padding: 0 0 0 15px;
         }
-        ul{
-            li{
+
+        ul {
+            li {
                 font-size: 20px;
                 font-style: italic;
                 font-family: 'Poppins', sans-serif;
                 color: #0032f0c7;
                 margin: 0 0 0 35px;
-                p{
+
+                p {
                     color: #000000;
                 }
             }
         }
     }
-    .ejemplos{
-        @include flex (flex, column, center);
+
+    .ejemplos {
+        @include tabla-flex (flex, column, center);
         color: #e27933;
         font-size: 50px;
         font-style: italic;
         font-family: 'Poppins', sans-serif;
-        img{
+
+        img {
             width: 750px;
         }
     }
-    .ejemplo-tabla-1{
+
+    .ejemplo-tabla-1 {
         @extend %tabla-flex;
         width: 100%;
         height: 100%;
         padding: 25px;
-        table{
+
+        table {
             text-align: center;
             width: 50%;
             height: 100%;
             border: 1px solid #000000;
-            tbody{
-                tr{
-                    &:nth-child(even){
+
+            tbody {
+                tr {
+                    &:nth-child(even) {
                         background-color: #aca0a073;
                     }
-                    th{
+
+                    th {
                         border-bottom: 5px solid #000000;
                         background-color: #212529;
                         color: #ffffff;
                         padding: 5px;
                     }
                 }
-                tr{
-                    td{
+
+                tr {
+                    td {
                         border: 1px solid #000000;
                         padding: 2px;
                     }
@@ -106,30 +122,35 @@
             }
         }
     }
-    .ejemplo-tabla-2{
+
+    .ejemplo-tabla-2 {
         @extend %tabla-flex;
         width: 100%;
         height: 100%;
         padding: 25px;
-        table{
+
+        table {
             text-align: center;
             width: 50%;
             height: 100%;
             border: 1px solid #000000;
-            tbody{
-                tr{
-                    &:nth-child(even){
+
+            tbody {
+                tr {
+                    &:nth-child(even) {
                         background-color: #aca0a073;
                     }
-                    th{
+
+                    th {
                         border-bottom: 5px solid #000000;
                         background-color: #212529;
                         color: #ffffff;
                         padding: 5px;
                     }
                 }
-                tr{
-                    td{
+
+                tr {
+                    td {
                         border: 1px solid #000000;
                         padding: 2px;
                     }
@@ -137,30 +158,35 @@
             }
         }
     }
-    .ejemplo-tabla-3{
+
+    .ejemplo-tabla-3 {
         @extend %tabla-flex;
         width: 100%;
         height: 100%;
         padding: 25px;
-        table{
+
+        table {
             text-align: center;
             width: 50%;
             height: 100%;
             border: 1px solid #000000;
-            tbody{
-                tr{
-                    &:nth-child(even){
+
+            tbody {
+                tr {
+                    &:nth-child(even) {
                         background-color: #aca0a073;
                     }
-                    th{
+
+                    th {
                         border-bottom: 5px solid #000000;
                         background-color: #212529;
                         color: #ffffff;
                         padding: 5px;
                     }
                 }
-                tr{
-                    td{
+
+                tr {
+                    td {
                         border: 1px solid #000000;
                         padding: 2px;
                     }

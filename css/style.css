@@ -10,10 +10,11 @@
 
 /*****HEADER-BOOTSTRAP*****/
 
-header nav div a img {
+header nav div img {
     width: 200px;
     height: 100%;
 }
+
 /*****INDEX*****/
 /***** MAIN *****/
 .hero {
@@ -574,7 +575,7 @@ footer div a img {
     font-style: italic;
     font-family: 'Poppins', sans-serif;
     color: #e27933;
-    padding:15px;
+    padding: 15px;
 }
 
 .elongar p {
@@ -589,7 +590,7 @@ footer div a img {
     font-style: italic;
     font-family: 'Poppins', sans-serif;
     color: #e27933;
-    padding:0 0 0 15px;
+    padding: 0 0 0 15px;
 }
 
 .elongar div {
@@ -605,7 +606,7 @@ footer div a img {
     font-family: 'Poppins', sans-serif;
     color: #0032f0c7;
     margin: 0 0 0 35px;
-    padding:0 20px 0 0;
+    padding: 0 20px 0 0;
 }
 
 .elongar div ul li p {
@@ -634,6 +635,13 @@ footer div a img {
     font-family: 'Poppins', sans-serif;
     color: #e27933;
     padding: 0 0 0 15px;
+    animation: h3-animation 1s steps(5, start) infinite;
+}
+
+@keyframes h3-animation {
+    to {
+        visibility: hidden;
+    }
 }
 
 .beneficios p {
@@ -643,7 +651,7 @@ footer div a img {
     padding: 0 0 0 15px;
 }
 
-.beneficios div{
+.beneficios div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -659,7 +667,7 @@ footer div a img {
     padding: 0 20px 0 0;
 }
 
-.beneficios div img{
+.beneficios div img {
     width: 450px;
     height: 350px;
     -moz-box-shadow: 2px 12px 26px 16px #212529;
@@ -676,7 +684,7 @@ footer div a img {
     background-color: #e27933 !important;
 }
 
-/*****MEDIA-QUERIES-INDEX*****/
+/*****MEDIA-QUERY-INDEX*****/
 
 @media screen and (max-width:900px) {
     .hero h1 {
@@ -762,7 +770,7 @@ footer div a img {
     }
 }
 
-/*****MEDIA-QUERIES-RUTINAS*****/
+/*****MEDIA-QUERY-RUTINAS*****/
 @media screen and (max-width:905px) {
     .introduccion div h1 {
         font-size: 45px;
@@ -795,24 +803,29 @@ footer div a img {
     .distribucion .tabla-1 {
         font-size: 12px;
     }
-    .tabla-2{
+
+    .tabla-2 {
         font-size: 12px;
     }
-    .tabla-3{
+
+    .tabla-3 {
         font-size: 12px;
     }
-    .tabla-4{
+
+    .tabla-4 {
         font-size: 12px;
     }
-    .tabla-5{
+
+    .tabla-5 {
         font-size: 12px;
     }
-    .tabla-6{
+
+    .tabla-6 {
         font-size: 12px;
     }
 }
 
-/*****MEDIA-QUERIES-FUNCIONAL*****/
+/*****MEDIA-QUERY-FUNCIONAL*****/
 @media screen and (max-width:768px) {
     .funcional-1 h1 {
         font-size: 45px;
@@ -853,7 +866,7 @@ footer div a img {
     }
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:640px) {
     .funcional-2 .entrenamientos ul li p {
         font-size: 18px;
     }
@@ -869,15 +882,17 @@ footer div a img {
     .funcional-2 .ejemplo-tabla-1 {
         font-size: 12px;
     }
-    .ejemplo-tabla-2{
+
+    .ejemplo-tabla-2 {
         font-size: 12px;
     }
-    .ejemplo-tabla-3{
+
+    .ejemplo-tabla-3 {
         font-size: 12px;
     }
 }
 
-/*****MEDIA-QUERIES-ELONGACIONES*****/
+/*****MEDIA-QUERY-ELONGACIONES*****/
 @media screen and (max-width:870px) {
     .elongar div img {
         display: none;
@@ -897,28 +912,30 @@ footer div a img {
         font-size: 20px;
     }
 
-    .elongar div ul li strong{
+    .elongar div ul li strong {
         font-size: 18px;
     }
 
-    .elongar div ul li p{
-        font-size:15px;
+    .elongar div ul li p {
+        font-size: 15px;
     }
 }
 
 @media screen and (max-width:400px) {
-    .elongar h1{
+    .elongar h1 {
         font-size: 30px;
     }
-    .elongar p{
-        font-size:18px;
+
+    .elongar p {
+        font-size: 18px;
     }
 }
 
 @media screen and (max-width:870px) {
     .beneficios {
-        flex-direction:column;
+        flex-direction: column;
     }
+
     .beneficios div img {
         display: none;
     }
@@ -937,13 +954,13 @@ footer div a img {
         font-size: 15px;
     }
 
-    .beneficios div ul li strong{
+    .beneficios div ul li strong {
         font-size: 18px;
     }
 }
 
 @media screen and (max-width:400px) {
-    .beneficios h2{
+    .beneficios h2 {
         font-size: 30px;
     }
 }

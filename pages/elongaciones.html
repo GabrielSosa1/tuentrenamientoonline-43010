@@ -5,18 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Bienestar fisico con distintos tipos de elongacion y los beneficios de hacerlos a la hora de entrenar o realizar alguna actividad fisica">
+    <meta name="keywords"
+        content="Elongaciones, beneficios, tipos, muscular, tecnica, flexibilidad, movimientos, posicion, postura, actividad, dolores, molestias, estres">
+    <meta property="og:type" content="Fitness ">
+    <meta property="og:title" content="Tu entrenamiento online | Elongaciones">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description"
+        content="Bienestar fisico con distintos tipos de elongacion y los beneficios de hacerlos a la hora de entrenar o realizar alguna actividad fisica">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <!--<link rel="stylesheet" href="../css/estilos.css">-->
-    <title>Elongaciones</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--<link rel="stylesheet" href="../css/style.css">-->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon.png">
+    <title>Tu entrenamiento online | Elongaciones</title>
 </head>
 
 <body>
     <header class="sticky-md-top sticky-lg-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../img/logo-titulo.png" alt="logo titulo"></a>
+                <a class="navbar-brand animate__animated animate__bounce animate__flash" href="../index.html"><img
+                        src="../img/logo-titulo.png" alt="logo titulo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -51,7 +65,7 @@
             <p>Los ejercicios de elongacion son muy importantes para ganar flexibilidad, reducir tension y minimizar
                 lesiones musculares. Elongar en cada entrenamiento nos brinda mas libertad de movimiento.</p>
             <h2>Tipos de elongaciones</h2>
-            <div>
+            <div data-aos="fade-up" data-aos-duration="3000">
                 <!--LISTA-DESORDENADA-->
                 <ul>
                     <li>
@@ -78,16 +92,16 @@
                     </li>
                 </ul>
                 <!--FIN-LISTA-DESORDENADA-->
-                <img src="../img/tipos-elongaciones.jpg" alt="tipo-elongacion">
+                <img src="../img/tipos-elongaciones.jpg" alt="tipos de elongacion">
             </div>
         </section>
         <section class="beneficios">
-            <h2>Beneficios de la elongacion</h2>
+            <h2 data-aos="fade-right">Beneficios de la elongacion</h2>
             <h3>!Importante¡</h3>
             <p>Se debe practicar antes y despues de cada actividad fisica.</p>
             <div>
                 <!--LISTA-DESORDENADA-->
-                <ul>
+                <ul data-aos="fade-right">
                     <li>
                         <strong>Ayuda a los musculos a sanar.</strong>
                     </li>
@@ -108,7 +122,7 @@
                     </li>
                 </ul>
                 <!--FIN-LISTA-DESORDENADA-->
-                <img src="../img/beneficios.jpg" alt="beneficios-elongar">
+                <img data-aos="fade-left" src="../img/beneficios.jpg" alt="beneficios de elongar">
             </div>
         </section>
     </main>
@@ -124,6 +138,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
