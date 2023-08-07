@@ -75,13 +75,6 @@
         font-family: 'Poppins', sans-serif;
         color: #e27933;
         padding: 0 0 0 15px;
-        animation: h3-animation 1s steps(5, start) infinite;
-
-        @keyframes h3-animation {
-            to {
-                visibility: hidden;
-            }
-        }
     }
 
     p {
