@@ -11,13 +11,13 @@
     height: 90vh;
     background-image: url(../img/fondo-hero.jpg);
     @extend %hero-back;
-    color: #f1f512;
     @extend %index-hero;
 
     h1 {
         display: inline-block;
         font-size: 100px;
         font-family: 'Bebas Neue', sans-serif;
+        color:#f1f512;
         border-block-end: 2px #ff0000 solid;
         padding: 10px;
     }
@@ -26,6 +26,7 @@
         display: inline-block;
         font-size: 50px;
         font-family: 'Bebas Neue', sans-serif;
+        color: #f1f512;
         border-block-end: 2px #ff0000 solid;
     }
 }

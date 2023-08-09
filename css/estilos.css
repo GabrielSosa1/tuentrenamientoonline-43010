@@ -27,10 +27,21 @@ header nav div img {
   height: 100%; }
 
 .main-contacto {
-  background-color: #5f9ea0; }
-
-.container {
-  background-color: #e27933 !important; }
+  background-color: #e27933; }
+  .main-contacto .section .container {
+    background: #101a4f;
+    background: -moz-linear-gradient(90deg, #101a4f 0%, rgba(60, 75, 137, 0.636292) 74%, rgba(100, 187, 180, 0.787553) 100%);
+    background: -webkit-linear-gradient(90deg, #101a4f 0%, rgba(60, 75, 137, 0.636292) 74%, rgba(100, 187, 180, 0.787553) 100%);
+    background: linear-gradient(90deg, #101a4f 0%, rgba(60, 75, 137, 0.636292) 74%, rgba(100, 187, 180, 0.787553) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#101a4f", endColorstr="#64bbb4", GradientType=1) !important; }
+    .main-contacto .section .container .contacto h1 {
+      color: #e27933; }
+    .main-contacto .section .container .contacto h2 {
+      color: #e27933; }
+    .main-contacto .section .container .formulario .form .datos .correo .form-label {
+      color: #e27933; }
+    .main-contacto .section .container .formulario .form .datos .consulta .form-label {
+      color: #e27933; }
 
 /*****HEADER-BOOTSTRAP*****/
 header nav div img {
@@ -48,18 +59,19 @@ header nav div img {
 .hero {
   width: 100%;
   height: 90vh;
-  background-image: url(../img/fondo-hero.jpg);
-  color: #f1f512; }
+  background-image: url(../img/fondo-hero.jpg); }
   .hero h1 {
     display: inline-block;
     font-size: 100px;
     font-family: 'Bebas Neue', sans-serif;
+    color: #f1f512;
     border-block-end: 2px #ff0000 solid;
     padding: 10px; }
   .hero p {
     display: inline-block;
     font-size: 50px;
     font-family: 'Bebas Neue', sans-serif;
+    color: #f1f512;
     border-block-end: 2px #ff0000 solid; }
 
 .grid-galeria {
@@ -498,10 +510,21 @@ header nav div img {
 
 /*****PAGINA-CONTACTO-BOOTSTRAP*****/
 .main-contacto {
-  background-color: #5f9ea0; }
-
-.container {
-  background-color: #e27933 !important; }
+  background-color: #e27933; }
+  .main-contacto .section .container {
+    background: #101a4f;
+    background: -moz-linear-gradient(90deg, #101a4f 0%, rgba(60, 75, 137, 0.636292) 74%, rgba(100, 187, 180, 0.787553) 100%);
+    background: -webkit-linear-gradient(90deg, #101a4f 0%, rgba(60, 75, 137, 0.636292) 74%, rgba(100, 187, 180, 0.787553) 100%);
+    background: linear-gradient(90deg, #101a4f 0%, rgba(60, 75, 137, 0.636292) 74%, rgba(100, 187, 180, 0.787553) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#101a4f", endColorstr="#64bbb4", GradientType=1) !important; }
+    .main-contacto .section .container .contacto h1 {
+      color: #e27933; }
+    .main-contacto .section .container .contacto h2 {
+      color: #e27933; }
+    .main-contacto .section .container .formulario .form .datos .correo .form-label {
+      color: #e27933; }
+    .main-contacto .section .container .formulario .form .datos .consulta .form-label {
+      color: #e27933; }
 
 /***** FOOTER *****/
 footer {
