@@ -29,11 +29,11 @@ header nav div img {
 .main-contacto {
   background-color: #e27933; }
   .main-contacto .section .container {
-    background: #101a4f;
-    background: -moz-linear-gradient(90deg, #101a4f 0%, rgba(60, 75, 137, 0.636292) 74%, rgba(100, 187, 180, 0.787553) 100%);
-    background: -webkit-linear-gradient(90deg, #101a4f 0%, rgba(60, 75, 137, 0.636292) 74%, rgba(100, 187, 180, 0.787553) 100%);
-    background: linear-gradient(90deg, #101a4f 0%, rgba(60, 75, 137, 0.636292) 74%, rgba(100, 187, 180, 0.787553) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#101a4f", endColorstr="#64bbb4", GradientType=1) !important; }
+    background: #ff6c03;
+    background: -moz-linear-gradient(90deg, #ff6c03 0%, black 9%, #1c0c00 91%, #ff6c03 100%);
+    background: -webkit-linear-gradient(90deg, #ff6c03 0%, black 9%, #1c0c00 91%, #ff6c03 100%);
+    background: linear-gradient(90deg, #ff6c03 0%, black 9%, #1c0c00 91%, #ff6c03 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff6c03", endColorstr="#ff6c03", GradientType=1) !important; }
     .main-contacto .section .container .contacto h1 {
       color: #e27933; }
     .main-contacto .section .container .contacto h2 {
@@ -510,13 +510,13 @@ header nav div img {
 
 /*****PAGINA-CONTACTO-BOOTSTRAP*****/
 .main-contacto {
-  background-color: #e27933; }
+  background-color: #212529; }
   .main-contacto .section .container {
-    background: #101a4f;
-    background: -moz-linear-gradient(90deg, #101a4f 0%, rgba(60, 75, 137, 0.636292) 74%, rgba(100, 187, 180, 0.787553) 100%);
-    background: -webkit-linear-gradient(90deg, #101a4f 0%, rgba(60, 75, 137, 0.636292) 74%, rgba(100, 187, 180, 0.787553) 100%);
-    background: linear-gradient(90deg, #101a4f 0%, rgba(60, 75, 137, 0.636292) 74%, rgba(100, 187, 180, 0.787553) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#101a4f", endColorstr="#64bbb4", GradientType=1) !important; }
+    background: #ff6c03;
+    background: -moz-linear-gradient(90deg, #ff6c03 0%, black 9%, #1c0c00 91%, #ff6c03 100%);
+    background: -webkit-linear-gradient(90deg, #ff6c03 0%, black 9%, #1c0c00 91%, #ff6c03 100%);
+    background: linear-gradient(90deg, #ff6c03 0%, black 9%, #1c0c00 91%, #ff6c03 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff6c03", endColorstr="#ff6c03", GradientType=1) !important; }
     .main-contacto .section .container .contacto h1 {
       color: #e27933; }
     .main-contacto .section .container .contacto h2 {
