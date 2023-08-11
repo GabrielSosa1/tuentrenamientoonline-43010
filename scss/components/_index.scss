@@ -17,7 +17,7 @@
         display: inline-block;
         font-size: 100px;
         font-family: 'Bebas Neue', sans-serif;
-        color:#f1f512;
+        color:nth($colors,1);
         border-block-end: 2px #ff0000 solid;
         padding: 10px;
     }
@@ -26,7 +26,7 @@
         display: inline-block;
         font-size: 50px;
         font-family: 'Bebas Neue', sans-serif;
-        color: #f1f512;
+        color: nth($colors,1);
         border-block-end: 2px #ff0000 solid;
     }
 }
@@ -64,9 +64,9 @@
         div {
             width: 200px;
             height: 225px;
-            border: 5px solid #000000;
+            border: 5px solid nth($colors,3);
             text-align: center;
-            background-color: #e27933;
+            background-color: nth($colors,6);
             margin: 70px;
             border-radius: 25%;
             display: inline-block;
@@ -90,7 +90,7 @@
                 font-style: italic;
                 font-family: 'Poppins', sans-serif;
                 color: #ffffff;
-                background-color: #e27933;
+                background-color:nth($colors,6);
                 cursor: pointer;
                 transition: all 400ms ease;
                 padding: 5px;
