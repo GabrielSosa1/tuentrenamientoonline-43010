@@ -637,7 +637,7 @@ footer {
   .funcional-1 p {
     font-size: 18px; }
   .funcional-1 .mejora ul li p {
-    font-size: 18px; } }
+    display: none; } }
 
 @media screen and (max-width: 800px) {
   .funcional-2 .tipos img {
